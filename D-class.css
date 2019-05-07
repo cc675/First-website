@@ -1,0 +1,84 @@
+
+/*resetting margins*/
+*{
+	padding: 0;
+	margin: 0;
+}
+html{
+	background-color: Whitesmoke;	
+}
+/*body*/
+body{
+    font-size: 100%;
+    margin: 0 auto;
+    border:  3px solid #333;
+	background-color: Whitesmoke;
+}
+/*header of the site*/
+header{
+	border: 1px solid #333;
+	border-bottom-color: black;
+	background-color: Whitesmoke;
+}
+header img{
+	width: 500px;
+	float: left;
+}
+.clearfix{
+	overflow: auto;
+}
+header h1{
+	padding-top: 4%;
+	font-size: 500%;
+	padding-bottom: 3.5%;
+}
+/*main content*/
+blockquote { 
+  display: block;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+main{
+	padding-left: 3em;
+	padding-right: 3em;
+	background-color: Whitesmoke;
+	font-family: Helvetica;
+}
+#AboutGame{
+	background-color: black;
+    margin: 0.9375em 5em;
+    padding: 0.9375em 1.5em;
+    border: .092em dashed lightgray;
+	color: black;
+	font-size: 20px;
+}
+#AboutGame{
+	padding-bottom: 20px;
+}
+#AboutGame ul{
+	padding-left: 3em;
+	padding-top: 1em;
+	padding-bottom: 1em;
+}
+/*footer*/
+footer{
+	background-color: #333;
+}
+#AboutSite{
+	background-color: Whitesmoke;
+	margin: 0.9375em auto;
+    padding: 0.9375em 10em;
+    border: 0.0625em solid Whitesmoke;
+	color: black;
+	text-align: left;
+	font-size: 18px
+}
+#AboutSite ul{
+	padding-top: 1em;
+	list-style-type: none;
+}
+@media screen and (max-width: 768px){
+	#AboutGame{ font-size: 10%;}
+}
